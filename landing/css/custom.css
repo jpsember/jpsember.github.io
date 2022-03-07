@@ -13,3 +13,7 @@
    */
 }
 
+.todo {
+   color: crimson;
+   outline: 1px solid blue;
+}
