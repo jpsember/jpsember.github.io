@@ -18,3 +18,30 @@
    color: crimson;
    outline: 1px solid blue;
 }
+
+
+.headshot_container{
+    display: flex;
+}
+
+.headshot_flex-item{
+    padding-left:20px;
+    flex-grow: 1;
+}
+
+.headshot_image {
+  display: block;
+  min-width:20%;
+  max-width:307px;
+  max-height:406px;
+  width: auto;
+  height: auto;
+
+  background: url('../img/headshot.jpg') center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-backface-visibility: hidden;
+}
+
