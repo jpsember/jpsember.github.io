@@ -9,8 +9,9 @@
    /*
    background-size: 100%;
    min-height: auto;
-    text-shadow: none;
+
    */
+   text-shadow: none;
 }
 
 .todo {
